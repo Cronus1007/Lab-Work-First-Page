@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Pallindrome Lab Registeration Form
+    </title>
+    <link rel="stylesheet" href="./css/login form.css">
+    <link rel="stylesheet" href="./css/checkbox.css">
+    <meta name="Viper1007">
+</head>
+
+<body>
+    <!--<h2>Summer School Registeration Form </h2>--><img src="bg.jpg">
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <h1>Register</h1>
+
+            <div id="checkbox-radio">
+                <input type="radio" class="radio" name="work" value="student" onclick="checkRadio()">
+                <p class="student">Student</p><br>
+                <input type="radio" class="radio" name="work" value="professional" onclick="checkRadio()">
+                <p class="professional">Professional</p>
+            </div>
+            <div class="studentinput">
+                <input type="text" id="clg" placeholder="College Name">
+                <input type="text" id="course" placeholder="Course ">
+            </div>
+            <div class="professionalinput">
+                <input type="text" id="compName" placeholder="Company Name">
+                <input type="text" id="title" placeholder="Title">
+            </div>
+            <button type="submit" class="submit" onclick="formValidation()" onsubmit="submitForm()">Submit</button>
+
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <div>
+                    <h1>Instructions </h1>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li>Do not</li>
+                    </ol>
+                    <button class="ghost" id="signUp" style="color: black;">Register</button>
+                </div>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Register</h1><br>
+                    <input type="text" id="name" placeholder="Name" onkeypress="return isCharacterKey(event)">
+                    <select class="gender" id="gender" required>
+                        <option selected disabled>Gender</option>
+                        <option class="option">Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+                    <input type="email" name="email" id="email" placeholder="Email" onkeypress="return isEmailCharacterKey()">
+                    <input placeholder="Phone Number: (ISD)-Number" id="phone" type="text" onkeypress="return isNumberKey(event)">
+
+                    <button class="ghost" id="signIn">Back</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Payment Information</h1>
+                    <p>Check out the terms and conditions of the---</p>
+                    <button class="ghost"><a href="#">Know More</a></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+
+    </footer>
+    <script type="text/javascript" src="./js/login form.js">
+    </script>
+</body>
+
+</html>
