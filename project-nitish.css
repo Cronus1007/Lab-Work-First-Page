@@ -1,0 +1,510 @@
+/*===============================
+===Orientation- Landscape========
+================================*/
+
+@media screen and (min-width:1440px) and (max-width: 2160px) and (orientation: landscape) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #f2f2f2;
+        background-color: #2b2b2b;
+        display: block;
+        overflow-x: hidden;
+    }
+    #home-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    .header img {
+        display: inline-block;
+        padding: 20px;
+    }
+    .header h1 {
+        display: inline-block;
+        position: relative;
+        padding-right: 45px;
+        float: right;
+        font-size: 2vw;
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+    .header p {
+        text-align: right;
+    }
+    hr {
+        width: 97vw;
+        margin-left: 2%;
+        opacity: 0.4;
+        transform: translateY(5px);
+        height: 0.5vh;
+        background-color: #fafafa;
+    }
+    .nav-bar {
+        margin-top: 8vw;
+        padding: 3vw;
+        display: inline-block;
+        width: 25vw;
+        height: 40vh;
+    }
+    .nav-bar ul li {
+        list-style-type: none;
+        margin-bottom: 1vw;
+        font-size: 1.15vw;
+        text-decoration: none;
+    }
+    .nav-bar ul a {
+        text-decoration: none;
+        color: #f2f2f2;
+    }
+    #home-main {
+        width: 60vw;
+        display: inline-block;
+        position: absolute;
+        top: 13vw;
+        padding: 3vw;
+        text-align: center;
+        transform: translateY(-85px);
+    }
+    #home-main .main p {
+        font-size: 1.5vw;
+        opacity: 0.5;
+        font-weight: 100;
+    }
+    #home-main .main h1 {
+        font-size: 2.5vw;
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding-top: 25px;
+        transform: translateX(-20px);
+    }
+    #home-main img {
+        position: relative;
+        left: 1vw;
+        transform: translateX(-70px);
+    }
+    .button {
+        position: relative;
+        left: 47vw;
+        top: -2vw;
+        width: 13.5vw;
+        height: 3.5vw;
+        background-color: transparent;
+        color: #f2f2f2;
+        border: 0;
+        margin: 7px;
+        font-size: 1.5vw;
+        border-radius: 38px;
+        border: 3px solid #f2f2f2;
+    }
+    .button:hover {
+        background-color: #f2f2f2;
+        border: 3px solid #f2f2f2;
+        color: #2b2b2b;
+    }
+    .button:focus {
+        outline: none;
+    }
+    footer hr {
+        opacity: 1;
+    }
+    footer p {
+        position: relative;
+        left: 51.2vw;
+        font-size: 16px;
+        opacity: 0.4;
+        font-size: 0.8vw;
+        margin-top: 7px;
+    }
+    a:focus {
+        text-decoration: none;
+    }
+    #about-the-course-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    #speakers-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    #timeline-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    #contact-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    #prizes-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    #merchandise-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    #registration-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    #about-the-course-main {
+        width: 60vw;
+        display: inline-block;
+        position: absolute;
+        top: 60vw;
+        padding: 3vw;
+        text-align: center;
+    }
+    #about-the-course-main p {
+        font-size: 1.25vw;
+        opacity: 0.5;
+        font-weight: lighter;
+        text-align: left;
+    }
+    #about-the-course-main h1 {
+        font-size: 2vw;
+        font-weight: lighter;
+    }
+    #speakers-main {
+        width: 70vw;
+        display: inline-block;
+        position: absolute;
+        top: 105vw;
+        padding: 3vw;
+        text-align: center;
+    }
+    #speakers-main p {
+        font-size: 1.5vw;
+        opacity: 0.5;
+        font-weight: lighter;
+    }
+    #speakers-main h1 {
+        font-size: 2vw;
+        font-weight: bold;
+        position: absolute;
+        left: 25vw;
+        top: 1vw;
+    }
+    #speakers-1 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 5vw;
+        left: 1vw;
+    }
+    #speakers-1 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 0.5vw;
+        top: 13vw;
+    }
+    #speakers-2 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 5vw;
+        left: 13vw;
+    }
+    #speakers-2 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 12vw;
+        top: 13vw;
+    }
+    #speakers-3 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 5vw;
+        left: 25vw;
+    }
+    #speakers-3 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 24vw;
+        top: 13vw;
+    }
+    #speakers-4 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 5vw;
+        left: 37vw;
+    }
+    #speakers-4 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 37vw;
+        top: 13vw;
+    }
+    #speakers-5 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 5vw;
+        left: 49vw;
+    }
+    #speakers-5 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 49vw;
+        top: 13vw;
+    }
+    #speakers-6 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 5vw;
+        left: 61vw;
+    }
+    #speakers-6 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 61.5vw;
+        top: 13vw;
+    }
+    #speakers-7 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 15.5vw;
+        left: 6.5vw;
+    }
+    #speakers-7 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 6vw;
+        top: 23vw;
+    }
+    #speakers-8 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 15.5vw;
+        left: 18.5vw;
+    }
+    #speakers-8 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 18vw;
+        top: 23vw;
+    }
+    #speakers-9 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 15.5vw;
+        left: 30.5vw;
+    }
+    #speakers-9 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 30vw;
+        top: 23vw;
+    }
+    #speakers-10 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 15.5vw;
+        left: 42.5vw;
+    }
+    #speakers-10 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 42vw;
+        top: 23vw;
+    }
+    #speakers-11 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 15.5vw;
+        left: 54.5vw;
+    }
+    #speakers-11 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 54vw;
+        top: 23vw;
+    }
+    #speakers-12 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 25.5vw;
+        left: 1vw;
+    }
+    #speakers-12 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 0vw;
+        top: 33vw;
+    }
+    #speakers-13 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 25.5vw;
+        left: 13vw;
+    }
+    #speakers-13 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 12vw;
+        top: 33vw;
+    }
+    #speakers-14 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 25.5vw;
+        left: 25vw;
+    }
+    #speakers-14 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 24vw;
+        top: 33vw;
+    }
+    #speakers-15 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 25.5vw;
+        left: 49vw;
+    }
+    #speakers-15 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 36vw;
+        top: 33vw;
+    }
+    #speakers-16 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 25.5vw;
+        left: 63vw;
+    }
+    #speakers-16 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 48vw;
+        top: 33vw;
+    }
+    #speakers-17 img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        position: absolute;
+        top: 25.5vw;
+        left: 37vw;
+    }
+    #speakers-17 h1 {
+        position: absolute;
+        font-size: 15px;
+        left: 60vw;
+        top: 33vw;
+    }
+    .top-line {
+        transform: translateY(-15px);
+    }
+    #timeline-main {
+        position: relative;
+        width: 0vw;
+        height: 0vh;
+    }
+    #timeline-main {
+        position: absolute;
+        top: 160vw;
+        left: 30vw;
+    }
+    #register-un {
+        position: absolute;
+        top: 380.5vh;
+    }
+    #register-uni {
+        top: 475vh;
+        position: absolute;
+    }
+    #Registration-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    #Registration-main {
+        display: inline-block;
+    }
+    #Registration-main h1 {
+        display: inline-block;
+    }
+    #Registration-main p {
+        display: inline-block;
+        color: #4a4a4a;
+    }
+    #Registration-main input {
+        width: 18vw;
+        height: 6.4vh;
+        border-radius: 10px;
+        border: 0;
+        background-color: #4a4a4a;
+        font-size: 1.4vw;
+        color: #f2f2f2;
+        display: inline-block;
+    }
+    #Registration-main input::placeholder {
+        color: #f2f2f2;
+        padding-left: 10px;
+        opacity: 0.5;
+    }
+    input:focus {
+        outline: none;
+    }
+    #Registration-main input[type="radio"] {
+        width: auto;
+        height: auto;
+    }
+    #contact-main {
+        display: inline-block;
+    }
+    #contact-main h1 {
+        display: inline-block;
+    }
+    #contact-main p {
+        display: inline-block;
+        color: #4a4a4a;
+    }
+    #contact-main input {
+        width: 18vw;
+        height: 6.4vh;
+        border-radius: 10px;
+        border: 0;
+        background-color: #4a4a4a;
+        font-size: 1.4vw;
+        color: #f2f2f2;
+        display: inline-block;
+    }
+    #contact-main input::placeholder {
+        padding-left: 15px;
+    }
+}
